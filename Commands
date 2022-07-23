@@ -1,0 +1,44 @@
+brew install git
+-- Used to install git in MAC OS
+
+git init
+-- Initializes an empty repository where code/data can be store.
+
+git status
+-- Shows information about current branch, commits and tracked/untrack files
+
+git checkout -b branch name
+-- Creates and switches to a new branch.
+
+git checkout branch name
+-- switches to specified branch
+
+git add filename
+-- Strats tracking the specified code/file, also keeps it as staged.
+
+git commit -m "Message"
+-- Save the changes that was commited in local repository.
+
+git restore filename
+-- Restores the deleted file from the last commit in repository
+
+git restore --staged filename
+-- reverts it from tracked to untracked code/file.
+
+git log
+-- shows the git log
+
+git revert commit number from log
+-- Restores the file/code even if it is deleted from git.
+
+git branch
+-- shows branch information.
+
+git clone URL
+-- Exports GitHub repository in local git.
+
+git push origin main
+-- Used to publish the local commit.
+
+git pull origin main
+-- Used to export commited file/code from GitHub to local git.
